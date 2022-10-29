@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "DDG Position",
+  "version": "1.0",
+
+  "description": "Skribbl addon",
+
+  "content_scripts": [
+    {
+      "matches": ["https://skribbl.io/*"],
+      "js": ["index.js"]
+    }
+  ],
+
+  "permissions": [
+    "*://duckduckgo.com/html/*"
+  ]
+}
